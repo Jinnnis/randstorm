@@ -118,7 +118,8 @@ if __name__ == '__main__':
     # Set the number of parallel processes (cores) to use
     num_processes = 6
     
-    target_address = "1NUhcfvRthmvrHf1PAJKe5uEzBGK44ASBD"
+    import os; target_address = os.environ.get("TARGET_ADDRESS", "1HGXq5Spi6NNXFKuQFfDDcYZmzTczKJi4b")
+    
 
     # Display the target address at the beginning
     print(f"Searching for: \033[93m{target_address}\033[0m\n")
