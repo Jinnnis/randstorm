@@ -118,7 +118,7 @@ if __name__ == '__main__':
     # Set the number of parallel processes (cores) to use
     num_processes = 6
     
-    import os; target_address = os.environ.get("TARGET_ADDRESS", "1HGXq5Spi6NNXFKuQFfDDcYZmzTczKJi4b")
+    import os; target_address = os.environ.get("TARGET_ADDRESS", "1DGwqAM8mV4aJVPidoBp9Zfz8GKhAzLkma")
     
 
     # Display the target address at the beginning
